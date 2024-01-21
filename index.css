@@ -140,6 +140,17 @@
     h2 {
         color: #333;
     }
+
+    .container img {
+        height: 60rem;
+        width: 55rem;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        display: block;
+        margin: auto;
+        margin-bottom: 5px;
+        margin-left: 2px;
+    }
     
     /* Style the Project section */
     #Project {
