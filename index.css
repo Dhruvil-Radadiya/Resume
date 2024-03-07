@@ -295,3 +295,114 @@
         padding: 2px;
         border-radius: 2px;
     }
+
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+/* Project Section */
+#Project ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#Project ul li {
+    margin-bottom: 20px;
+}
+
+/* Education Section */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Skills Section */
+ul .cod {
+    font-weight: bold;
+}
+
+/* Contact Section */
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Media Queries for Responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    header {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    table, th, td {
+        padding: 6px;
+    }
+
+    ul .cod {
+        font-size: 14px;
+    }
+
+    ul li h4 {
+        font-size: 14px;
+    }
+
+    footer {
+        padding: 10px;
+    }
+}
