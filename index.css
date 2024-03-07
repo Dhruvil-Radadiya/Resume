@@ -36,25 +36,28 @@ header p {
     animation: fadeInUp 1s ease 0.5s; /* Delayed fade in animation */
 }
 
-/* Style the navigation menu with hover effect */
+/* Navbar */
 nav ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     display: flex;
+    flex-wrap: wrap; /* Ensure items wrap to the next line on smaller screens */
     justify-content: center;
-    background-color: #444;
-    padding: 1rem 0;
 }
 
 nav ul li {
-    margin: 0 1rem;
+    margin: 5px; /* Add margin between navbar items */
 }
 
 nav ul li a {
-    color: #fff;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
 }
 
 nav ul li a:hover {
@@ -172,12 +175,12 @@ h2 {
 #Skills {
     margin-bottom: 20px;
 }
-
+/* Hobbies Section */
 .hob {
     background-color: #f1f1f1;
-    padding: 2px;
-    border-radius: 2px;
-    width: 42rem;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 95%; /* Adjusting the width for responsiveness */
 }
 
 .sk {
@@ -236,25 +239,28 @@ h4 {
     list-style-type: disc; /* Use bullet points (disc style) */
     color: white; /* Set text color to white */
 }
-
-/* Style for the table */
+/* Table */
 table {
-    border: 2px solid #000; /* 1px solid black border */
-    border-collapse: collapse; /* Optional: collapse borders for a cleaner look */
+    border: 2px solid #000;
+    border-collapse: collapse;
     width: 100%;
     margin: 20px auto;
+    overflow-x: auto;
+    max-width: 100%; /* Ensure the table doesn't exceed the viewport width */
+    display: block;
 }
 
 th, td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    white-space: nowrap;
 }
 
 th {
     background-color: #635f5f;
-    border-top: 2px solid #000; /* 1px solid black border on top */
-    border-bottom: 2px solid #000; /* 1px solid black border on bottom */
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
 }
 
 tr:hover {
@@ -302,3 +308,6 @@ tr:hover {
         margin: 0;
     }
 }
+
+
+
